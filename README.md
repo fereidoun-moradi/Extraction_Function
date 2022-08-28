@@ -1,4 +1,4 @@
-# T_Function
+# Extraction_Function
 The <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/castfunction_variables">function</a> extracts a list of tau (silent) transtions 
 from the mapped state space (aut file) based on a list of observable actions. 
 
