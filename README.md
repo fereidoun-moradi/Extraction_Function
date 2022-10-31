@@ -18,8 +18,11 @@ The diagram of the messages passing between actors defined in a model of a room 
 
 ![diagram_actors_messages](https://user-images.githubusercontent.com/45528113/198962230-89231591-082f-4591-b449-b58471ea3488.jpg)
 
-A mappped state space of a <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/OneRoomTemp_mode.rebeca">Timed Rebeca</a> model (<a href="https://github.com/fereidoun-moradi/cast_function/blob/main/state_transition_diagram.png">state dransition diagram</a>): <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/castfile_exp2.aut">mapped state space (aut file)</a>
+First the staate space of the Timed Rebeca is mapped using cast function.
+The mappped state space of the <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/OneRoomTemp_mode.rebeca">Timed Rebeca</a> model (<a href="https://github.com/fereidoun-moradi/cast_function/blob/main/state_transition_diagram.png">state dransition diagram</a>): <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/castfile_exp2.aut">mapped state space (aut file)</a>
 
+
+Second, the extraction function uses the maped state space (aut file) and a list of observable actions to generate tau transitions. 
 A list of observable actions:  <a href="https://github.com/fereidoun-moradi/Extraction_Function/blob/main/observable_actions_exp2.txt">observable actions</a>
 
 Output (tau transitions): 
@@ -30,8 +33,9 @@ status_[22_],sense_[22_],status_[21_],status_[23_],sense_[21_],sense_[23_],heati
 
 ![Screenshot 2022-10-31 at 10 11 53](https://user-images.githubusercontent.com/45528113/198972831-22fd55fc-ffb1-442d-b6e4-eca6a1a7b06c.png)
 
-The reduced model is generated based on tau_star equivalence relationship (i.e., weak trace equivalence) in mCRL2 tool.
-The output list above is used for tau transitions list.
+
+The output list above shows tau transitions.
+The reduced model is generated based on tau transitions and tau_star equivalence relationship (i.e., weak trace equivalence) in mCRL2 tool.
 
 The abstracted transition system (<a href="https://github.com/fereidoun-moradi/extraction_Function/blob/main/OneRoomTemp_mode_casted_tau_star.lts">aut file</a>): <a href="https://github.com/fereidoun-moradi/extraction_Function/blob/main/abstracted_LTS_exp2.png">abstracted_LTS_diagram</a>.
 
