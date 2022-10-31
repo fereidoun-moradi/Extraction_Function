@@ -1,1 +1,1 @@
-
+start,getsense,activate_h,activate_c,switchoff,resume_heating,resume_cooling,time,(
