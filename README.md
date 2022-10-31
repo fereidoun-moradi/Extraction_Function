@@ -1,4 +1,11 @@
 # Extraction_Function
+
+
+![toolset2](https://user-images.githubusercontent.com/45528113/199018279-066288d4-5203-4760-9954-371946a72510.jpg)
+
+
+
+
 The <a href="https://github.com/fereidoun-moradi/Extraction_Function/blob/main/extraction_function">function</a> extracts a list of tau (silent) transtions 
 from the mapped state space (aut file) based on a list of observable actions. The output list can be used in mCRL2 tool for reducing the transtion system based on difference equivalence relationships.
 
