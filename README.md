@@ -33,6 +33,6 @@ status_[22_],sense_[22_],status_[21_],status_[23_],sense_[21_],sense_[23_],heati
 The reduced model is generated based on tau_star equivalence relationship (i.e., weak trace equivalence) in mCRL2 tool.
 The output list above is used for tau transitions list.
 
-The abstracted transition system (<a href="https://github.com/fereidoun-moradi/extraction_Function/blob/main/OneRoomTemp_mode_casted_tau_star.lts">aut file</a>): <a href="https://github.com/fereidoun-moradi/Extraction_Function/blob/main/observable_actions.txt">abstracted_LTS_diagram</a>.
+The abstracted transition system (<a href="https://github.com/fereidoun-moradi/extraction_Function/blob/main/OneRoomTemp_mode_casted_tau_star.lts">aut file</a>): <a href="https://github.com/fereidoun-moradi/extraction_Function/blob/main/abstracted_LTS_exp2.png">abstracted_LTS_diagram</a>.
 
 
