@@ -47,3 +47,20 @@ The reduced model is generated based on tau transitions and tau_star equivalence
 The reduced state space (<a href="https://github.com/fereidoun-moradi/extraction_Function/blob/main/OneRoomTemp_mode_casted_tau_star.lts">aut file</a>): <a href="https://github.com/fereidoun-moradi/extraction_Function/blob/main/abstracted_LTS_exp2.png">abstracted_LTS_diagram</a>. (It contains 49 states and 71 transtions.)
 
 
+# Example 3.
+The diagram of the messages passing between actors defined in a model of a secure water treatment system.
+
+![diagram_actors_messages_swat drawio](https://user-images.githubusercontent.com/45528113/199199300-2946742b-285a-46f4-b825-2d81adfcd6ee.png)
+
+First, the state space of the Timed Rebeca is mapped using <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/OneRoomTemp_mode.rebeca">cast function</a>.
+The mappped state space of the <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/SWaT_Time_WithoutAttacks.rebeca">Timed Rebeca</a> model (<a href="https://github.com/fereidoun-moradi/cast_function/blob/main/SWaT_Time_WithoutAttacks.pdf">state dransition diagram</a>): <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/castfile_exp3.aut">mapped state space (aut file)</a>
+
+
+Second, the extraction function uses the maped state space (aut file) and a list of observable actions to generate tau transitions. 
+A list of observable actions:  <a href="https://github.com/fereidoun-moradi/Extraction_Function/blob/main/observable_actions_exp3.txt">observable actions</a>
+
+Output (tau transitions): 
+
+sensor1_sense_[1_1_1_],sensor2_sense_[1_1_1_],sensor3_sense_[1_1_1_],tank1_status_[1_1_1_],tank2_status_[1_1_1_],tank3_status_[1_1_1_],sensor1_reportstatus_[1_1_1_],sensor2_reportstatus_[1_1_1_],sensor3_reportstatus_[1_1_1_],plc1_openreq_[1_1_1_],tank1_waterincrease_[1_1_1_],tank1_waterdecrease_[2_1_1_],tank1_status_[2_1_1_],tank2_waterincrease_[2_1_1_],sensor1_reportstatus_[2_1_1_],tank2_status_[2_1_1_],sensor2_reportstatus_[2_1_1_],tank1_waterdecrease_[2_2_1_],tank1_status_[2_2_1_],tank2_waterincrease_[2_2_1_],sensor1_reportstatus_[2_2_1_],tank2_status_[2_2_1_],tank3_waterincrease_[2_2_1_],sensor2_reportstatus_[2_2_1_],tank3_status_[2_2_1_],sensor3_reportstatus_[2_2_1_],plc1_closereq_[2_2_1_],plc3_onreq_[2_2_1_],tank1_status_[2_2_3_],sensor1_reportstatus_[2_2_3_],tank3_waterdecrease_[2_2_3_],tank2_waterincrease_[2_2_3_],tank3_status_[2_2_3_],cleanwater_[2_2_3_],tank2_status_[2_2_3_],sensor3_reportstatus_[2_2_3_],sensor2_reportstatus_[2_2_3_],tank1_status_[2_3_3_],tank2_waterdecrease_[2_3_3_],tank1_status_[2_3_1_],tank2_waterdecrease_[2_3_1_],sensor1_reportstatus_[2_3_3_],tank2_status_[2_3_3_],sensor1_reportstatus_[2_3_1_],tank2_status_[2_3_1_],sensor2_reportstatus_[2_3_3_],sensor2_reportstatus_[2_3_1_],plc1_openreq_[2_2_1_]
+(This list shows tau transitions for reducing the casted_LTS based on equivalence relationships.)
+
