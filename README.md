@@ -48,12 +48,12 @@ The reduced state space (<a href="https://github.com/fereidoun-moradi/extraction
 
 
 # Example 3.
-The diagram of the messages passing between actors defined in a model of a secure water treatment system.
+The diagram of the messages passing between actors defined in a <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/SWaT_Time_WithoutAttacks.rebeca">Timed Rebeca</a> model of a secure water treatment system.
 
 ![diagram_actors_messages_swat drawio](https://user-images.githubusercontent.com/45528113/199199300-2946742b-285a-46f4-b825-2d81adfcd6ee.png)
 
 First, the state space of the Timed Rebeca is mapped using <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/OneRoomTemp_mode.rebeca">cast function</a>.
-The mappped state space of the <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/SWaT_Time_WithoutAttacks.rebeca">Timed Rebeca</a> model (<a href="https://github.com/fereidoun-moradi/cast_function/blob/main/SWaT_Time_WithoutAttacks.pdf">state dransition diagram</a>): <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/castfile_exp3.aut">mapped state space (aut file)</a>
+The mappped state space of the Timed Rebeca model (<a href="https://github.com/fereidoun-moradi/cast_function/blob/main/SWaT_Time_WithoutAttacks.pdf">state dransition diagram</a>): <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/castfile_exp3.aut">mapped state space (aut file)</a>
 
 (The state space of the Timed Rebeca model includes 688 states and 1825 transtions)
 
