@@ -53,7 +53,10 @@ The diagram of the messages passing between actors defined in a model of a secur
 ![diagram_actors_messages_swat drawio](https://user-images.githubusercontent.com/45528113/199199300-2946742b-285a-46f4-b825-2d81adfcd6ee.png)
 
 First, the state space of the Timed Rebeca is mapped using <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/OneRoomTemp_mode.rebeca">cast function</a>.
-The mappped state space of the <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/SWaT_Time_WithoutAttacks.rebeca">Timed Rebeca</a> model (<a href="https://github.com/fereidoun-moradi/cast_function/blob/main/SWaT_Time_WithoutAttacks.pdf">state dransition diagram</a>): <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/castfile_exp3.aut">mapped state space (aut file)</a>
+The mappped state space of the <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/SWaT_Time_WithoutAttacks.rebeca">Timed Rebeca</a> model (<a href="https://github.com/fereidoun-moradi/cast_function/blob/main/SWaT_Time_WithoutAttacks.pdf">state dransition diagram</a>, (The state space of the Timed Rebeca model includes 688 states and 1825 transtions)): <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/castfile_exp3.aut">mapped state space (aut file)</a>
+
+
+![Screenshot 2022-11-01 at 10 31 59](https://user-images.githubusercontent.com/45528113/199203830-1efc2b37-976d-4a3d-8807-baec7d2ff869.png)
 
 
 Second, the extraction function uses the maped state space (aut file) and a list of observable actions to generate tau transitions. 
