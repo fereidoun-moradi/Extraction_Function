@@ -32,9 +32,8 @@ The mappped state space of the Timed Rebeca model (<a href="https://github.com/f
 Second, the extraction function uses the maped state space (aut file) and a list of observable actions to generate tau transitions. 
 A list of observable actions:  <a href="https://github.com/fereidoun-moradi/Extraction_Function/blob/main/observable_actions_exp2.txt">observable actions</a>
 
-Output (tau transitions): 
+Output: <a href="https://github.com/fereidoun-moradi/extraction_Function/blob/main/tau_transitions_exp2.txt">tau transitions</a>
 
-status_[22_],sense_[22_],status_[21_],status_[23_],sense_[21_],sense_[23_],heating_[20_],status_[20_],sense_[20_],cooling_[24_],status_[24_],sense_[24_]
 (This list shows tau transitions for reducing the casted_LTS based on equivalence relationships.)
 
 
