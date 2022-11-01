@@ -65,9 +65,8 @@ Second, the extraction function uses the maped state space (aut file) and a list
 
 A list of observable actions:  <a href="https://github.com/fereidoun-moradi/Extraction_Function/blob/main/observable_actions_exp3.txt">observable actions</a>
 
-Output (tau transitions): 
+Output: <a href="https://github.com/fereidoun-moradi/extraction_Function/blob/main/tau_transitions_exp3.txt">tau transitions</a>
 
-sensor1_sense_[1_1_1_],sensor2_sense_[1_1_1_],sensor3_sense_[1_1_1_],tank1_status_[1_1_1_],tank2_status_[1_1_1_],tank3_status_[1_1_1_],sensor1_reportstatus_[1_1_1_],sensor2_reportstatus_[1_1_1_],sensor3_reportstatus_[1_1_1_],plc1_openreq_[1_1_1_],tank1_waterincrease_[1_1_1_],tank1_waterdecrease_[2_1_1_],tank1_status_[2_1_1_],tank2_waterincrease_[2_1_1_],sensor1_reportstatus_[2_1_1_],tank2_status_[2_1_1_],sensor2_reportstatus_[2_1_1_],tank1_waterdecrease_[2_2_1_],tank1_status_[2_2_1_],tank2_waterincrease_[2_2_1_],sensor1_reportstatus_[2_2_1_],tank2_status_[2_2_1_],tank3_waterincrease_[2_2_1_],sensor2_reportstatus_[2_2_1_],tank3_status_[2_2_1_],sensor3_reportstatus_[2_2_1_],plc1_closereq_[2_2_1_],plc3_onreq_[2_2_1_],tank1_status_[2_2_3_],sensor1_reportstatus_[2_2_3_],tank3_waterdecrease_[2_2_3_],tank2_waterincrease_[2_2_3_],tank3_status_[2_2_3_],cleanwater_[2_2_3_],tank2_status_[2_2_3_],sensor3_reportstatus_[2_2_3_],sensor2_reportstatus_[2_2_3_],tank1_status_[2_3_3_],tank2_waterdecrease_[2_3_3_],tank1_status_[2_3_1_],tank2_waterdecrease_[2_3_1_],sensor1_reportstatus_[2_3_3_],tank2_status_[2_3_3_],sensor1_reportstatus_[2_3_1_],tank2_status_[2_3_1_],sensor2_reportstatus_[2_3_3_],sensor2_reportstatus_[2_3_1_],plc1_openreq_[2_2_1_]
 (This list shows tau transitions for reducing the casted_LTS based on equivalence relationships.)
 
 The output list above shows tau transitions.
