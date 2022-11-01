@@ -13,9 +13,6 @@ from the mapped state space (aut file) based on a list of observable actions. Th
 # Example 1.
 A mappped state space of a <a href="https://github.com/fereidoun-moradi/Abstraction-tool/blob/main/RV-Example.rebeca">Timed Rebeca</a> model (<a href="https://github.com/fereidoun-moradi/cast_function/blob/main/RV_Example.png">state dransition diagram</a>): <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/castfile.aut">mapped state space (aut file)</a>
 
-(The state space includes 76 states and 103 transtions.)
-
-(the maped state space (aut file) contains 103 states and 129 transtions.)
 
 A list of observable actions:  <a href="https://github.com/fereidoun-moradi/Extraction_Function/blob/main/observable_actions.txt">observable actions</a>
 
@@ -32,6 +29,9 @@ The diagram of the messages passing between actors defined in a <a href="https:/
 First, the state space of the Timed Rebeca is mapped using <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/OneRoomTemp_mode.rebeca">cast function</a>.
 The mappped state space of the Timed Rebeca model (<a href="https://github.com/fereidoun-moradi/cast_function/blob/main/state_transition_diagram.png">state dransition diagram</a>): <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/castfile_exp2.aut">mapped state space (aut file)</a>
 
+(The state space includes 76 states and 103 transtions.)
+
+(the maped state space (aut file) contains 103 states and 129 transtions.)
 
 Second, the extraction function uses the maped state space (aut file) and a list of observable actions to generate tau transitions. 
 A list of observable actions:  <a href="https://github.com/fereidoun-moradi/Extraction_Function/blob/main/observable_actions_exp2.txt">observable actions</a>
