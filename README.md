@@ -67,5 +67,5 @@ sensor1_sense_[1_1_1_],sensor2_sense_[1_1_1_],sensor3_sense_[1_1_1_],tank1_statu
 The output list above shows tau transitions.
 The reduced model is generated based on tau transitions and tau_star equivalence relationship (i.e., weak trace equivalence) in <a href="https://github.com/fereidoun-moradi/mCRL2">mCRL2 tool</a>.
 
-The reduced state space (<a href="https://github.com/fereidoun-moradi/extraction_Function/blob/main/SWaT_Time_WithoutAttacks_casted_v2_tau_star.lts">aut file</a>): <a href="https://github.com/fereidoun-moradi/extraction_Function/blob/main/abstracted_LTS_exp2.png">abstracted_LTS_diagram</a>. (It contains 62 states and 90 transtions.)
+The reduced state space (<a href="https://github.com/fereidoun-moradi/extraction_Function/blob/main/SWaT_Time_WithoutAttacks_casted_v2_tau_star.lts">aut file</a>): <a href="https://github.com/fereidoun-moradi/extraction_Function/blob/main/reduced_state_space_swat.png">abstracted_LTS_diagram</a>. (It contains 62 states and 90 transtions.)
 
