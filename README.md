@@ -21,12 +21,12 @@ Output (i.e., tau transtions): heating_[20_true_false_]
 ![Screenshot 2022-08-28 at 16 34 01](https://user-images.githubusercontent.com/45528113/187079441-b0a7669a-6f8a-48f2-bb1d-fc9182e52985.png)
 
 # Example 2.
-The diagram of the messages passing between actors defined in a Timed Rebeca model of a room temperature control system.
+The diagram of the messages passing between actors defined in a <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/OneRoomTemp_mode.rebeca">Timed Rebeca</a>  model of a room temperature control system.
 
 ![diagram_actors_messages](https://user-images.githubusercontent.com/45528113/198962230-89231591-082f-4591-b449-b58471ea3488.jpg)
 
 First, the state space of the Timed Rebeca is mapped using <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/OneRoomTemp_mode.rebeca">cast function</a>.
-The mappped state space of the <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/OneRoomTemp_mode.rebeca">Timed Rebeca</a> model (<a href="https://github.com/fereidoun-moradi/cast_function/blob/main/state_transition_diagram.png">state dransition diagram</a>): <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/castfile_exp2.aut">mapped state space (aut file)</a>
+The mappped state space of the Timed Rebeca model (<a href="https://github.com/fereidoun-moradi/cast_function/blob/main/state_transition_diagram.png">state dransition diagram</a>): <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/castfile_exp2.aut">mapped state space (aut file)</a>
 
 
 Second, the extraction function uses the maped state space (aut file) and a list of observable actions to generate tau transitions. 
