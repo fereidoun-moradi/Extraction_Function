@@ -57,7 +57,7 @@ The mappped state space of the Timed Rebeca model (<a href="https://github.com/f
 
 (The state space of the Timed Rebeca model includes 688 states and 1825 transtions)
 
-(the mapped state space (aut file) contains 760 states and 1896 transtions)
+(The mapped state space (aut file) contains 760 states and 1896 transtions)
 ![Screenshot 2022-11-01 at 10 31 59](https://user-images.githubusercontent.com/45528113/199203830-1efc2b37-976d-4a3d-8807-baec7d2ff869.png)
 
 
