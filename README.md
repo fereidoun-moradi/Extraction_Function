@@ -57,6 +57,7 @@ The mappped state space of the <a href="https://github.com/fereidoun-moradi/cast
 
 
 Second, the extraction function uses the maped state space (aut file) and a list of observable actions to generate tau transitions. 
+
 A list of observable actions:  <a href="https://github.com/fereidoun-moradi/Extraction_Function/blob/main/observable_actions_exp3.txt">observable actions</a>
 
 Output (tau transitions): 
