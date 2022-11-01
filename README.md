@@ -75,5 +75,5 @@ The reduced model is generated based on tau transitions and tau_star equivalence
 
 The reduced state space (<a href="https://github.com/fereidoun-moradi/extraction_Function/blob/main/SWaT_Time_WithoutAttacks_casted_v2_tau_star.lts">aut file</a>): <a href="https://github.com/fereidoun-moradi/extraction_Function/blob/main/reduced_state_space_swat.png">abstracted_LTS_diagram</a>. (It contains 62 states and 90 transtions.)
 
-![reduced_state_space_swat](https://user-images.githubusercontent.com/45528113/199215981-74664e82-698d-4f17-be3d-b5a768d42de1.png)
+![Screenshot 2022-11-01 at 11 45 07](https://user-images.githubusercontent.com/45528113/199216338-a3159168-7f92-4380-88f7-a105450a9358.png)
 
