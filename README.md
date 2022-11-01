@@ -56,6 +56,7 @@ First, the state space of the Timed Rebeca is mapped using <a href="https://gith
 The mappped state space of the <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/SWaT_Time_WithoutAttacks.rebeca">Timed Rebeca</a> model (<a href="https://github.com/fereidoun-moradi/cast_function/blob/main/SWaT_Time_WithoutAttacks.pdf">state dransition diagram</a>): <a href="https://github.com/fereidoun-moradi/cast_function/blob/main/castfile_exp3.aut">mapped state space (aut file)</a>
 
 (The state space of the Timed Rebeca model includes 688 states and 1825 transtions)
+(the mapped state space (aut file) contains 760 states and 1896 transtions, and the dot file (LTS diagram) is generated using ltsconvert function in mCRL2 tool.)
 ![Screenshot 2022-11-01 at 10 31 59](https://user-images.githubusercontent.com/45528113/199203830-1efc2b37-976d-4a3d-8807-baec7d2ff869.png)
 
 
