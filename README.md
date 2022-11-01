@@ -15,7 +15,7 @@ A mappped state space of a <a href="https://github.com/fereidoun-moradi/Abstract
 
 A list of observable actions:  <a href="https://github.com/fereidoun-moradi/Extraction_Function/blob/main/observable_actions.txt">observable actions</a>
 
-Output: heating_[20_true_false_]
+Output (i.e., tau transtions): heating_[20_true_false_]
 
 
 ![Screenshot 2022-08-28 at 16 34 01](https://user-images.githubusercontent.com/45528113/187079441-b0a7669a-6f8a-48f2-bb1d-fc9182e52985.png)
