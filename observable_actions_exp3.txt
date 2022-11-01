@@ -1,0 +1,1 @@
+pump1_on,pump1_off,pump1_keeponpumping,plc1_getsense,valve_close,valve_keeponwaterflow,valve_open,plc2_getsense,plc3_getsense,pump2_on,pump2_off,time,(
